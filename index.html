@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>He's Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">He's Homepage</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="papers.html">Publications</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="misc.html">Misc</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="intro" id="about">
+        <div class="container intro-layout">
+            <aside class="profile-card">
+                <div class="profile-image-wrap">
+                    <img class="profile-image" src="img/hero-portrait.jpg" alt="Geng He portrait">
+                </div>
+                <h1 class="profile-name">Geng He</h1>
+
+                <div class="profile-interests">
+                    <h4 class="profile-interests-title">Research Interests</h4>
+                    <div class="interest-tags">
+                        <span class="interest-tag">Software Engineering</span>
+                        <span class="interest-tag">LLM Security</span>
+                        <span class="interest-tag">Generative AI</span>
+                    </div>
+                </div>
+
+                <div class="profile-links">
+                    <a href="mailto:hgeng777@connect.hkust-gz.edu.cn" title="Email">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        Email
+                    </a>
+                    <a href="https://github.com/genghe02" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&user=q6OFEUwAAAAJ&view_op=list_works" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+                        Scholar
+                    </a>
+                </div>
+            </aside>
+
+            <div class="about-panel">
+                <h2 class="section-title">About Me</h2>
+                <div class="md-section-content" data-md="content/about.md"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2025 Geng He. Built with care.</p>
+        </div>
+    </footer>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

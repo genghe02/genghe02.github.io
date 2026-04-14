@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - He's Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">He's Homepage</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="papers.html">Publications</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="misc.html">Misc</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <div class="container">
+
+            <h1 class="page-title">Schedule a Meeting</h1>
+            <p class="page-description">
+                Happy to discuss research, collaborations, or just chat over coffee.
+                Pick a time that works for you below — it'll automatically sync with my calendar.
+            </p>
+
+
+            <div class="booking-hero">
+                <div class="booking-hero-content">
+                    <div class="booking-hero-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 14h.01"/><path d="M12 14h.01"/><path d="M16 14h.01"/><path d="M8 18h.01"/><path d="M12 18h.01"/></svg>
+                    </div>
+                    <div>
+                        <h3 class="booking-hero-title">Book a 1:1 with me</h3>
+                        <p class="booking-hero-desc">Powered by Notion Calendar — free slots are auto-detected from my live schedule.</p>
+                    </div>
+                </div>
+                <a class="booking-hero-btn" href="https://calendar.notion.so/meet/hegeng/xxeap4q5o" target="_blank" rel="noopener noreferrer">
+                    Pick a time
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+            </div>
+
+            <h2 class="page-subtitle">My Calendar</h2>
+            <p class="page-description">Live view of my schedule for reference. Use the booking link above to reserve a slot.</p>
+
+            <div class="calendar-embed">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=7cb03d1d7b9c3b86b4db78d24a6c72e172ab9e50c6ad1ecbdc1be75a1358c3dd%40group.calendar.google.com&src=0cabf1c1ded014e0f2e753d5622d49e2793b71b683f004280714686749a4ff68%40group.calendar.google.com&color=%230e7c86&color=%23e76f51&ctz=Asia%2FShanghai&mode=WEEK&wkst=2&showPrint=0&showTabs=1&showCalendars=1&showTz=0"
+                    style="border:0"
+                    width="100%"
+                    height="600"
+                    frameborder="0"
+                    scrolling="no"
+                    title="Geng He's Google Calendar">
+                </iframe>
+            </div>
+
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2025 Geng He. Built with care.</p>
+        </div>
+    </footer>
+
+    <script src="components.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

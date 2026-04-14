@@ -35,7 +35,7 @@
             <section class="skill-group">
                 <h4 class="skill-group-title">🛠️ Frameworks & Runtime</h4>
                 <div class="skill-tags">
-                    <span>🍶 Flask</span><span>🎯 Django</span><span>🍃 Spring</span><span>🚀 Spring Boot</span><span>🔐 Spring Security</span><span>🧱 Spring MVC</span><span>⚙️ .NET</span><span>🧭 Vue</span><span>⚛️ React</span><span>☕ JVM</span>
+                    <span>🍶 Flask</span><span>🎯 Django</span><span>🍃 Spring</span><span>🚀 Spring Boot</span><span>🔐 Spring Security</span><span>🧱 Spring MVC</span><span>⚙️ .NET</span><span>🧭 Vue</span><span>⚛️ React</span><span>☕ JVM</span><span>🪟 Swing</span><span>🧩 Qt</span><span>🐍 PyQt</span>
                 </div>
             </section>
 

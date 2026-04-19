@@ -22,7 +22,7 @@
             </div>
             <h3 class="timeline-title">Passed IELTS</h3>
             <p class="timeline-text">
-                I finally passed my IELTS exam after months of preparation.
+                I finally passed my IELTS exam after months of preparation😢.
             </p>
         </div>
     </article>

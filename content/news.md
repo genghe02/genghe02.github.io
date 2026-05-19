@@ -3,6 +3,20 @@
         <div class="timeline-dot" aria-hidden="true"></div>
         <div class="timeline-card">
             <div class="timeline-meta">
+                <time class="timeline-date">May 2026</time>
+                <span class="timeline-tag">Milestone</span>
+            </div>
+            <h3 class="timeline-title">Passed my MPhil thesis defense</h3>
+            <p class="timeline-text">
+                I successfully passed my MPhil thesis defense on May 11, 2026.
+            </p>
+        </div>
+    </article>
+
+    <article class="timeline-item">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-card">
+            <div class="timeline-meta">
                 <time class="timeline-date">Apr 2026</time>
                 <span class="timeline-tag">Paper</span>
             </div>
